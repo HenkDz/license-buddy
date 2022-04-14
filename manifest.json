@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "License Filler",
+    "description": "This chrome extension fills in your information automatically so you can get on with your day. No more copying and pasting license keys- let License Filler take care of it for you!",
+    "homepage_url": "http://www.nhweb.co.uk",
+    "version": "3.2",
+
+    "action": {
+        "default_title": "Quickly fill your input fields",
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "16": "16.png",
+        "32": "32.png",
+        "64": "64.png",
+        "128": "128.png"
+    },
+    "permissions": [
+        "tabs", "storage", "declarativeContent", "activeTab", "scripting"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+
+    "content_security_policy": {
+
+    }
+}

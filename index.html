@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="actionv2.js"></script>
+    <link href="stylev2.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="preload">
+    <div id="copied_banner" class="ok-license show">Key Successfully Copied</div>
+    <div id="titles">
+        <h1>License Filler v3.2</h1>
+        <h2 id="detected_license">No License detected on this page</h2>
+    </div>
+    <div id="fillerdiv"><button id="fillForm-btn" class="btn-2"><div id="fill_label">Fill Form</div></button> <button id="copy_license-btn" class="btn-2"><div>Copy lincense instead</div></button></div>
+    <div class="frame" id="local_license_status">
+        <div id="status_wrapper"><strong><p id="licenses_count"></p></strong><button class="popup-trigger btn" id="addlicense_btn"><span>Add New key<i class="far fa-plus-circle"></i></span></button>
+            <div id="existing_licenses" class="show_less">
+                <p id="show_all">Show All</p>
+            </div>
+        </div>
+    </div>
+    <div class="blur-bg hide popup-close">
+        <div id="edit_icon"></div>
+    </div>
+    <form class="frame hide" id="addlicense_form"><label for="name" class="addform_input-label">License Name: (required)</label><input placeholder="license name" type="text" id="license_name" name="name" required> <label for="license_key" class="addform_input-label">License Key: (required)</label>
+        <input
+            placeholder="license key" type="text" id="license_key" name="license_key" required> <label for="url_inlcudes" class="addform_input-label">URL_contains:</label><input placeholder="license_manager" type="text" id="url_contains" name="url_inlcudes"> <label for="selector_type" class="addform_input-label">Selector_types:</label>
+            <select
+                placeholder="id, class or name" type="text" id="selector_type" name="selector_type">
+                <option value="">Choose Selector Type</option>
+                <option value="id">id</option>
+                <option value="class">class</option>
+                <option value="name">name</option>
+                <option value="tag">tag name</option>
+                <option value="attribute">attribute</option>
+                <option value="SelectorAll">SelectorAll</option>
+                </select> <label for="selector" class="addform_input-label">Input Selector:</label><input placeholder="oxygen_license_key" type="text" id="license_selector" name="selector"> <button class="btn-2" id="addkey_btn" type="submit">Add New Key</button>                <button class="btn-2" id="deletekey_btn" type="button">Delete Key</button></form>
+    <div id="myForm">
+        <form id="update-div" aria-label="Update"><input type="file" id="csvFile" accept=".csv"> <label for="csvFile" id="csvFile-label" class="btn-2">Upload</label> <button class="btn-2 bounce-7" id="submit-btn" type="Submit">Update</button></form><button class="btn-2" id="reset-btn">Reset</button></div>
+    <div
+        class="buy_me_cofee_container">
+        <a id="buy_me_cofee" href="https://ko-fi.com/S6S0C2C72" target="_blank">
+            <div class="card">
+                <div class="front">
+                    <!-- front side content -->
+                </div>
+                <div class="back">
+                    <!-- back side content -->
+                </div>
+            </div>
+        </a>
+        </div>
+</body>
+
+</html>
